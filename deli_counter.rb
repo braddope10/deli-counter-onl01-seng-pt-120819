@@ -6,7 +6,7 @@ def line(array) # this was the one I figured out
       array.each do |name|
         new_array.push("#{counter}. #{name}")
         counter += 1 
-    end
+    
       puts "The line is currently: #{new_array.join(" ")}"
     else
       puts "The line is currently empty."
